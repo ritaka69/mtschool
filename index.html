@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MT School</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Unbounded"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="scripts/swiper.js"></script>
+    <script src="scripts/loader.js"></script>
+    <script src="scripts/slider.js"></script>
+  </head>
+  <body>
+    <section class="sec" id="loader">
+      <div class="loader">
+        <div class="circle item0"></div>
+        <div class="circle item1"></div>
+        <div class="circle item2"></div>
+      </div>
+    </section>
+
+    <header>
+      <div class="header-wrapper">
+        <div class="logo">
+          <img src="src/logo.svg" />
+          <div class="logo-text">
+            <span><span class="m">M</span>other</span>
+            <span><span class="t">T</span>ongue</span>
+            <span class="school">School</span>
+          </div>
+        </div>
+        <nav class="header-menu">
+          <ul class>
+            <li><a href="#aboutUs">ПРО НАС</a></li>
+            <li><a href="#courses">КУРСИ</a></li>
+            <li><a href="#teachers">ВИКЛАДАЧІ</a></li>
+            <li><a href="#feedbacks">ВІДГУКИ</a></li>
+            <li><a href="#contacts">КОНТАКТИ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="language-section">
+      <div class="text-content">
+        <h1>Знання мов — безмежні можливості!</h1>
+        <p>
+          Онлайн та офлайн курси англійської
+          <img src="src/Flag United Kingdom.svg" class="flag" /> та польської
+          <img src="src/Flag Poland.svg" class="flag" />для дітей і дорослих.
+        </p>
+      </div>
+      <div class="image-content">
+        <img src="src/Student.svg" alt="student" />
+      </div>
+    </section>
+
+    <div class="aboutUs" id="aboutUs">
+      <div class="aboutus">
+        <div class="aboutus-title">
+          <h2>Чому саме ми?</h2>
+          <img class="fire" src="src/Fire.svg" alt="Вогонь" />
+        </div>
+        <div class="block">
+          <p>
+            Ми — не просто школа іноземних мов.<br />
+            Ми команда, яка допомагає вам подолати страх,<br />
+            невпевненість і нарешті заговорити мовою, якою ви<br />
+            мрієте володіти.
+          </p>
+          <p>
+            Наш підхід — це результат, підтримка і практика з<br />
+            першого заняття.
+          </p>
+        </div>
+
+        <div class="cta">
+          <img class="gift" src="src/Gift.svg" alt="Подарунок" />
+          <span class="free-lesson">ПЕРШЕ ЗАНЯТТЯ БЕЗКОШТОВНЕ!</span>
+        </div>
+
+        <div class="problems">
+          <div class="problems-title">
+            <h2>Як ми вирішуємо мовні проблеми?</h2>
+            <img class="target" src="src/Target.svg" alt="Ціль" />
+          </div>
+          <div class="problems-screen">
+            <div class="problem-card1">
+              <div class="problem-text">
+                <h3>Боїтеся говорити?</h3>
+                <p>
+                  Ми створюємо мовне середовище, де ти починаєш говорити з
+                  першого заняття — без страху помилитись.
+                </p>
+              </div>
+            </div>
+            <div class="problem-card2">
+              <div class="problem-text">
+                <h3>Мова не “йде в голову”?</h3>
+                <p>
+                  Навчання побудоване на живих прикладах і<br />
+                  асоціаціях, щоб мова<br />
+                  запам’ятовувалась легко<br />
+                  й надовго.
+                </p>
+              </div>
+            </div>
+            <div class="problem-card3">
+              <div class="problem-text">
+                <h3>Погана вимова?</h3>
+                <p>
+                  Наші викладачі ставлять правильну артикуляцію<br />
+                  й інтонацію, щоб ти<br />
+                  звучав природно.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="courses" id="courses">
+      <div class="courses-title">
+        <h1>Які в нас є курси?</h1>
+      </div>
+      <div class="courses-container">
+        <div class="card">
+          <div class="card-title">
+            <img src="src/For child.svg" alt="Для дітей" />
+            <h2>Для дітей</h2>
+          </div>
+          <ul>
+            <li>ігрова форма</li>
+            <br />
+            <li>онлайн або офлайн</li>
+            <br />
+            <li>цікаві домашні завдання</li>
+            <li>регулярний контроль знань та покращення результату</li>
+            <li>заняття індивідуально або в парі</li>
+          </ul>
+          <span class="price">від 200 грн</span>
+        </div>
+
+        <div class="card">
+          <div class="card-title">
+            <img
+              src="src/Preparing-for-NMT.svg"
+              alt="Підготовка к HMT/IELTS"
+              class="preparing"
+            />
+            <h4>Підготовка к HMT/IELTS</h4>
+          </div>
+          <ul>
+            <li>
+              опрацювання всіх частин тесту: читання, аудіювання, граматика,
+              лексика, письмо
+            </li>
+            <li>розумне домашнє завдання</li>
+            <li>заняття індивідуально або в групі</li>
+            <li>моніторинг прогресу та пробні тести</li>
+          </ul>
+          <span class="price">від 225 грн</span>
+        </div>
+
+        <div class="card">
+          <div class="card-title">
+            <img src="src/For adults.svg" alt="Для дорослих" />
+            <h2>Для дорослих</h2>
+          </div>
+          <ul>
+            <li>для будь-якого рівня</li>
+            <br />
+            <li>онлайн або офлайн</li>
+            <br />
+            <li>індивідуально або в групі</li>
+            <br />
+            <li>максимум розмовної практики</li>
+            <li>домашні завдання спрямовані на реальне використання мови</li>
+          </ul>
+          <span class="price">від 200 грн</span>
+        </div>
+
+        <div class="card">
+          <div class="card-title">
+            <img src="src/Summer favor.svg" alt="Літня користь" />
+            <h2>Літня користь</h2>
+          </div>
+          <ul>
+            <li>тривалість курсу: 3-3.5 місяців</li>
+            <li>для дітей будь-якого рівня (A1–C1)</li>
+            <br />
+            <li>онлайн або офлайн</li>
+            <br />
+            <li>індивідуально, у парі, у міні групах</li>
+            <li>
+              максимум розмовної англійської, ігрові, творчі та інтерактивні
+              вправи
+            </li>
+          </ul>
+          <span class="price">від 200 грн</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="teachers" class="team">
+      <div class="team-container">
+        <div class="team-header">
+          <h1>Познайомтесь з командою MT SCHOOL</h1>
+        </div>
+        <div class="team-boxf">
+          <div class="team-member first">
+            <div class="biography">
+              <h2>Віолетта Швед</h2>
+              <div class="biography-container">
+                <p>Викладач для дорослих</p>
+                <p>Рівень мови: C1</p>
+                <p>Досвід: 6 років</p>
+                <p>
+                  «Допомогає подолати мовний бар'єр і заговорити з упевненістю!»
+                </p>
+              </div>
+            </div>
+          </div>
+          <img
+            src="src/first member.svg"
+            alt="Віолетта Швед"
+            class="first-photo"
+          />
+        </div>
+
+        <div class="team-boxs">
+          <img
+            src="src/second member.svg"
+            alt="Вадим Мазур"
+            class="second-photo"
+          />
+          <div class="team-member second">
+            <div class="biographys">
+              <h2>Вадим Мазур</h2>
+              <div class="biographys-container">
+                <p>Викладач для дітей та дорослих</p>
+                <p>Рівень мови: C2</p>
+                <p>Досвід: 8 років</p>
+                <p>
+                  «Знаходжу підхід до кожного учня — незалежно від віку чи
+                  рівня»
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-boxt">
+          <div class="team-member third">
+            <div class="biography">
+              <h2>Анна Іваненко</h2>
+              <div class="biography-container">
+                <p>Викладач для дітей</p>
+                <p>Рівень мови: B2</p>
+                <p>Досвід: 6 років</p>
+                <p>«Мова — це не лише предмет, це життя!»</p>
+              </div>
+            </div>
+          </div>
+          <img
+            src="src/third member.svg"
+            alt="Анна Іваненко"
+            class="third-photo"
+          />
+        </div>
+      </div>
+    </div>
+
+    <section id="feedbacks" class="feedback-section">
+      <h2>Відгуки наших студентів</h2>
+      <div class="feedback-container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="feedback-card">
+                <img
+                  src="src/Anna.svg"
+                  alt="Фото студента"
+                  class="feedback-photo"
+                />
+                <p>
+                  Навчаюся в цій школі вже третій місяць, і я просто в захваті!
+                  Викладачі дуже уважні та підтримують кожного студента. Заняття
+                  цікаві, багато практики з носіями мови, що допомагає швидко
+                  долати мовний бар’єр. Помітила, що почала краще розуміти
+                  фільми англійською та вільніше говорити. Рекомендую!
+                </p>
+                <h3>Анна, 20 років, студентка</h3>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="feedback-card">
+                <img
+                  src="src/Taya.svg"
+                  alt="Фото студента"
+                  class="feedback-photo"
+                />
+                <p>
+                  Я мріяла говорити англійською, як носії, і ця школа справді
+                  допомагає мені це реалізувати. Уроки дуже живі, ми
+                  спілкуємося, граємо, слухаємо пісні та виконуємо цікаві
+                  завдання. Мені подобається те, що викладачі завжди пояснюють
+                  усе зрозуміло. Тепер я впевнено готуюсь до НМТ!
+                </p>
+                <h3>Тая, 16 років, школярка</h3>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="feedback-card">
+                <img
+                  src="src/Artem.svg"
+                  alt="Фото студента"
+                  class="feedback-photo"
+                />
+                <p>
+                  Я працюю в IT-сфері, тому знання англійської для мене
+                  необхідність. Завдяки курсам я значно покращив впевненість
+                  почуватися на мітингах з іноземними клієнтами та можу спокійно
+                  читати документацію без перекладача. Особливо ціную
+                  індивідуальний підхід і практику живого спілкування.
+                </p>
+                <h3>Артем, 24 роки, програміст</h3>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="feedback-card">
+                <img
+                  src="src/Yevhen.svg"
+                  alt="Фото студента"
+                  class="feedback-photo"
+                />
+                <p>
+                  Почав вивчати англійську для роботи за кордоном, і MT SCHOOL
+                  стала для мене справжньою знахідкою. Гнучкий графік занять і
+                  сучасна подача матеріалу — саме те, що потрібно дорослій
+                  людині з обмеженим часом. Особливо подобається, що все
+                  пояснюється просто і зрозуміло, без зайвої «води».
+                </p>
+                <h3>Євген, 34 роки, логіст</h3>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="feedback-card">
+                <img
+                  src="src/Irina.svg"
+                  alt="Фото студента"
+                  class="feedback-photo"
+                />
+                <p>
+                  Я привела сюди свою доньку, а в результаті вирішила теж
+                  записатись на курс! Дуже дружня атмосфера, викладачі знаходять
+                  підхід до кожного. Ми з донькою навіть удома тепер спілкуємось
+                  англійською. Школа дає не тільки знання, а й мотивацію
+                  розвиватися. Мені дуже подобається!
+                </p>
+                <h3>Ірина, 42 роки, вчителька</h3>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="feedback-card">
+                <img
+                  src="src/Sofia.svg"
+                  alt="Фото студента"
+                  class="feedback-photo"
+                />
+                <p>
+                  Мені дуже подобається в MT SCHOOL! Ми граємо в ігри, співаємо
+                  пісні англійською і навіть дивимось мультики. Вчителька завжди
+                  весела і допомагає, якщо щось не розумію. Тепер я можу сказати
+                  багато слів англійською і сама складати речення! Хочу ходити
+                  сюди частіше ніж в школу!
+                </p>
+                <h3>Софійка, 9 років, школярка</h3>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </section>
+
+    <div id="contacts" class="locations">
+      <div id="slider-container">
+        <div id="iframe1" class="iframe-slide active">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3339.6518278262647!2d33.38610207684129!3d47.907218767169596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40db20bb145f209f%3A0x2fca16baa3842110!2z0YPQuy4g0JPQtdGA0L7QtdCyINCQ0KLQniwgMTEsINCa0YDQuNCy0L7QuSDQoNC-0LMsINCU0L3QtdC_0YDQvtC_0LXRgtGA0L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA1MDAwMA!5e1!3m2!1sru!2sua!4v1748355384380!5m2!1suk!2sua"
+            loading="lazy"
+          ></iframe>
+          <div class="contact-box">
+            <h2>Контакти</h2>
+            <div class="question">
+              Якщо у вас залишилися питання, ми будемо раді відповісти на них:
+            </div>
+            <p>+380 (97) 111 78 95</p>
+            <p>
+              <a
+                href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlHDsPjmdhwwMtVPbhtshbhGcKzSFMrqtWrHzLwWzdhmwwvTsJXCPcsHtRVRsNcFLvwlRg"
+                >mothertongueschool@gmail.com</a
+              >
+            </p>
+            <p>
+              м. Кривий Ріг<br />
+              вул. Героїв АТО, 11
+            </p>
+          </div>
+        </div>
+
+        <div id="iframe2" class="iframe-slide">
+          <!-- iframe будет добавлен сюда динамически -->
+          <div class="contact-box">
+            <h2>Контакти</h2>
+            <div class="question">
+              Якщо у вас залишилися питання, ми будемо раді відповісти на них:
+            </div>
+            <p>+380 (97) 111 78 95</p>
+            <p>
+              <a
+                href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlHDsPjmdhwwMtVPbhtshbhGcKzSFMrqtWrHzLwWzdhmwwvTsJXCPcsHtRVRsNcFLvwlRg"
+                target="_blank"
+                >mothertongueschool@gmail.com</a
+              >
+            </p>
+            <p>
+              м. Кривий Ріг<br />
+              вул. Мусоргського, 19
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button id="prevBtn" onclick="showPrev()">← Попередня локація</button>
+      <button id="nextBtn" onclick="showNext()">Наступна локація →</button>
+    </div>
+
+    <footer>
+      <div class="footer-wrapper">
+        <div class="logo">
+          <img src="src/logo.svg" />
+        </div>
+
+        <div class="social-links">
+          <a
+            href="https://www.instagram.com/mtschool_kr?igsh=MW5lc3ByMmF1YnU3"
+            target="_blank"
+          >
+            <img src="src/inst.svg" alt="Instagram" />
+            <span>Instagram</span>
+          </a>
+          <a href="https://www.facebook.com/mtschool.kr" target="_blank">
+            <img src="src/facebook.svg" alt="Facebook" />
+            <span>Facebook</span>
+          </a>
+        </div>
+
+        <nav class="footer-menu">
+          <ul class>
+            <li><a href="#aboutUs">ПРО НАС</a></li>
+            <li><a href="#courses">КУРСИ</a></li>
+            <li><a href="#teachers">ВИКЛАДАЧІ</a></li>
+            <li><a href="#feedbacks">ВІДГУКИ</a></li>
+            <li><a href="#contacts">КОНТАКТИ</a></li>
+          </ul>
+          <div class="copyright">
+            <p>© 2010–2025 MTSCHOOL</p>
+          </div>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
